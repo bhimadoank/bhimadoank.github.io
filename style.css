@@ -24,6 +24,7 @@ section {
   border-radius: 10px;
   height: 500px;
   transform-style: preserve-3d;
+  overflow: hidden;
 }
 
 .project-box::before {
@@ -84,14 +85,14 @@ transition: 0.5s;
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate3d(-50%,0, 100px);
+  transform: translate3d( -50%, 0, 50px);
   opacity: 0;
   transition: 0.5s;
 }
 
 .project-box:hover .project-detail-button {
   opacity: 1;
-  bottom: 20px;
+  bottom: 25px;
 }
 
 .project-img {
