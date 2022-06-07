@@ -35,13 +35,14 @@ section {
   font-weight: bold;
   font-style: italic;
   top: 30px;
-  left: 50%;
-  transform: translate(-50%,0);
+  left: -100px;
   opacity: 0;
   transition: 0.5s;
 }
 
 .project-box:hover::before {
+  left: 50%;
+  transform: translate(-50%,0);
   opacity: 0.2;
 }
 
@@ -53,13 +54,15 @@ section {
   font-weight: bold;
   font-style: italic;
   top: 350px;
-  left: 50%;
-  transform: translate(-50%,0);
+  left: 450px;
+  
   opacity: 0;
   transition: 0.5s;
 }
 
 .project-box:hover::after {
+  left: 50%;
+  transform: translate(-50%,0);
   opacity: 0.2;
 }
 
